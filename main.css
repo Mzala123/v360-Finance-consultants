@@ -36,7 +36,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    height: 8vh;
+    height: 9vh;
     align-items: center;
     width: 100%;
     padding-left: 40px;
@@ -135,7 +135,7 @@ header .nav_items a:last-child:hover{
 
 main{
     position: relative;
-    top: 8vh;
+    top: 9vh;
     z-index: 0;
 }
 
@@ -168,7 +168,6 @@ main{
     text-align: center;
     font-weight: 500;
     font-size: 24px;  
-   
 }
 
 .intro > div:nth-child(1) p:last-of-type{
