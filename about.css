@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Montserrat";
+     src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Syne";
+    src: url(Syne/Syne-VariableFont_wght.ttf); 
+}
+
+.title_about{
+    height: 25vh;
+    width: 100%;
+    background-image: url(src/skankin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #f3f2ef; */
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.title_about h1{
+    
+}
+
+.about_content {
+    padding: 80px 40px;
+    display: grid;
+    gap: 40px;
+}
+
+.about_content > div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about_content > div:nth-child(1) div{
+    height: 4px;
+    width: 100px;
+    /* background-color: #191919; */
+    background-color: #e9c529;
+}
+
+
+.about_content > div:nth-child(1) p:first-of-type span{
+    font-weight: 500;
+    font-size: large;
+    font-family: "Montserrat";
+    /* background-color: #e9c529; */
+}
+
+.about_content > div:nth-child(2) img{
+    width: 100%;
+    /* height: 80%; */
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.about_vision{
+    background-color: #f3f2ef;
+    padding: 80px 40px;
+    display: grid;
+    gap: 40px;
+}
+
+.point{
+      display: grid;
+      gap: 20px;
+      padding: 10px;
+}
+
+.point > div:nth-child(1){
+    color: #e9c529;
+}
+
+.point > div:nth-child(2) h1{
+   font-size: 28px;
+   margin-bottom: 16px;
+}
+
+@media screen and (min-width:500px) {
+      
+
+}
+
+
+@media screen and (min-width:640px) {
+    .about_content {   
+     grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+
+@media screen and (min-width:768px) {
+
+
+    .title_about{
+        padding-left: 80px;
+    }
+
+    .title_about > h1{
+        font-size: 44px;
+    }
+
+    .about_content {   
+       padding: 80px;
+    }
+
+    .about_content > div:nth-child(1) p{
+         font-size: 18px;
+    }
+
+    .about_content > div:nth-child(1) p:first-of-type span{
+       
+        font-size: larger;
+    }
+
+    .about_vision{
+        padding: 80px 80px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .point > div:nth-child(2) p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1020px) {
+    .title_about > h1{
+        font-size: 48px;
+    }
+
+    .about_content > div:nth-child(1) h2{
+        font-size: 44px;
+    }
+    
+    .about_content > div:nth-child(2){
+        border-radius: 20px;
+    }
+
+     .about_content > div:nth-child(2) img{
+        width: 100%;
+        /* height: 70%; */
+        object-fit: cover;
+        /* border-radius: 20px; */
+    }
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .about_content{
+        width: 1300px;
+        margin: auto;
+    }
+}
