@@ -210,13 +210,41 @@ main{
 }
  
 
+.success_quote{
+    padding: 80px 40px 80px 40px;
+}
+
+.success_quote > div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.success_quote > div:nth-child(1) h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/* .success_quote > div:nth-child(1) div{
+    margin-bottom: 80px;
+    width: 100px;
+    height: 2px;
+    background-color: #191919;
+} */
+
+.success_quote > div:nth-child(1) p{
+    text-align: center;
+}
+
 .title_service{
     display: flex;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #f3f2ef;
 }
 
 .title_service div{
@@ -226,9 +254,10 @@ main{
 }
 
 .services{
-    padding: 40px;
+    padding: 0 40px 80px;
     display: grid;
     gap: 40px;
+    background-color: #f3f2ef;
 }
 
 
@@ -258,7 +287,6 @@ main{
 
 
 .clientelle{
-    background-color: #f3f2ef;
     margin-top: 40px;
 }
 
@@ -369,9 +397,6 @@ main{
         flex-direction: row;
     }
 
-    
-
-
     .intro >div:nth-child(2) img{
         width: 100%;
     }
@@ -405,13 +430,28 @@ main{
         width: 250px;
     }
 
+    .title_service h1, .clientelle > div:nth-child(1) h1, .success_quote > div:nth-child(1) h1{
+        font-size: 40px;
+    }
+
     .services{
         grid-template-columns: 1fr 1fr;
-        padding: 0 80px 0 80px;
+        padding:0 80px 80px;
     }
     
+    .success_quote{
+        padding: 80px 80px 80px 80px;
+    }
 
 
+    .success_quote > div:nth-child(1) p{
+        font-size: 18px;
+    }
+
+    .services .list > div:nth-child(2) p{
+        font-size: 18px;
+    }
+   
 }
 
 
@@ -441,6 +481,7 @@ main{
         font-weight: 100;
     }
 
+   
     
 
    
@@ -469,7 +510,19 @@ main{
         margin: auto;
         /* width: 90%; */
     }
+
+    .title_service h1, .clientelle > div:nth-child(1) h1, .success_quote > div:nth-child(1) h1{
+        font-size: 44px;
+    }
     
-    
+
+    .success_quote > div:nth-child(1){
+        margin: auto;
+        width: 1024px;
+    }
+
+    .success_quote > div:nth-child(1) p{
+        font-size: 22px;
+    }
 
 }
