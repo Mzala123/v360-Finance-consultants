@@ -85,6 +85,11 @@ header .nav_items a:hover{
     text-decoration: underline;
 }
 
+/* header .nav_items a:active{
+    font-weight: 700;
+    text-decoration: underline;
+} */
+
 #toggle_open{
     cursor: pointer;
 }
@@ -314,6 +319,50 @@ main{
     padding: 40px;
 }
 
+
+footer{
+    padding: 40px 40px;
+    background-color: black;
+    color: white;
+
+}
+
+footer > div:nth-child(1){
+    display: grid;
+    gap: 20px;
+}
+
+footer > div:nth-child(1) a{
+     color: white;
+     text-decoration: none;
+     font-size: 14px;
+}
+
+footer > div:nth-child(1) img{
+    height: 60px;
+}
+
+
+footer > div:nth-child(1) a:last-of-type{
+    background-color: #e9c529;
+    border-radius: 5px;
+    width:210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0 8px;  
+    font-family: 'Syne';
+    font-weight: 500;
+    word-spacing: 4px;
+    color: #191919;
+    border: 2px solid #e9c529;
+    gap: 10px;
+}
+
+footer > div:nth-child(1) a:last-of-type:hover{
+    background-color: white;
+    /* border: 2px solid white; */
+}
 
 @media screen and (min-width:500px) {
       
