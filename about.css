@@ -69,7 +69,7 @@
 .point{
       display: grid;
       gap: 20px;
-      padding: 10px;
+      /* padding: 10px; */
 }
 
 .point > div:nth-child(1){
