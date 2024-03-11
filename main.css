@@ -352,6 +352,7 @@ footer{
     background-color: black;
     color: white;
     display: grid;
+    gap: 20px;
 }
 
 footer > .v360_links{
@@ -448,11 +449,6 @@ footer > div:nth-child(1) a:last-of-type:hover{
 
     .services{
         grid-template-columns: 1fr 1fr;
-    }
-    
-
-    footer{
-       grid-template-columns: 1fr 1fr 1fr;
     }
     
 }
@@ -599,11 +595,8 @@ footer > div:nth-child(1) a:last-of-type:hover{
         padding: 40px 80px;
         background-color: black;
         color: white;
+        grid-template-columns: 1fr 1fr;
     }
-
-
-    
-    
 
 
 }
@@ -642,12 +635,12 @@ footer > div:nth-child(1) a:last-of-type:hover{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
-    /* .clientelle > .list div img{
-        height: 130px;
-        width: 130px;
-        border-radius: 10px;
-    
-    } */
+    footer{
+        padding: 40px 80px;
+        background-color: black;
+        color: white;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
 }
 

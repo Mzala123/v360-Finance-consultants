@@ -22,6 +22,7 @@
 .contact_content {
     padding: 80px 40px;
     display: grid;
+    gap: 40px;
     /* justify-content: center;
     align-items: center; */
 }
@@ -43,6 +44,11 @@
     color:#0a66c2;
 }
 
+.map iframe{
+    width: 100%;
+    height: 450px;
+}
+
 
 @media screen and (min-width:640px) {
   
@@ -61,6 +67,7 @@
 
     .contact_content {
         padding: 80px;
+        grid-template-columns: 1fr 1fr;
     }
 
     .contact_content > div:nth-child(1) > div{
