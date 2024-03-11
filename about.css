@@ -11,10 +11,7 @@
 .title_about{
     height: 25vh;
     width: 100%;
-    background-image: url(src/skankin.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-color: #f3f2ef; */
+    background-color: #f3f2ef;
     padding: 40px;
     display: flex;
     align-items: center;
